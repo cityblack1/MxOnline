@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% extends 'org_base.html' %}
+{% load staticfiles %}
+{% block title %}机构介绍{% endblock %}
+{% block bread %}机构介绍{% endblock %}
+{% block right_content %}
+<div class="right companycenter layout" >
+        <div class="head">
+            <h1>机构介绍</h1>
+        </div>
+        <div class="des">
+            <p>{{ org.desc }}</p>
+
+        </div>
+    </div>
+{% endblock %}
+
