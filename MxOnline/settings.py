@@ -97,8 +97,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'mxonline',
-        'USER': 'root',
-        'PASSWORD':'suyue123',
+        'USER': 'yourname',
+        'PASSWORD':'yourpass',
         'HOST': '127.0.0.1'
     }
 }
@@ -149,10 +149,10 @@ STATICFILES_DIRS = [
 
 EMAIL_HOST = 'smtp.sina.com'
 EMAIL_PORT = 25
-EMAIL_HOST_USER = 'cityblack2@sina.com'
-EMAIL_HOST_PASSWORD = 'suyue123'
+EMAIL_HOST_USER = 'youremail@sina.com'
+EMAIL_HOST_PASSWORD = 'youremail'
 EMAIL_USE_TLS = False
-EMAIL_FROM = 'cityblack2@sina.com'
+EMAIL_FROM = 'youremail@sina.com'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
